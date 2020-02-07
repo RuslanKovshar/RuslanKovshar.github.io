@@ -1,40 +1,168 @@
 <!DOCTYPE html>
-<html>
+<html lang="ua">
 <head>
-	<title>Ruslan Kovshar</title>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Ruslan Kovshar</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/f1e98c92c0.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <div class="container mt-5 text-center">
-  <h1 class="display-4">Hello there!</h1>
-  <p class="lead">My name is <span class="badge badge-light">Ruslan Kovshar</span> and i'm <span class="badge badge-light">java developer</span>!</p>
+    <h1 class="display-4">Hello there!</h1>
+    <p class="lead">My name is <span class="badge badge-light">Ruslan Kovshar</span> and i'm <span
+            class="badge badge-light">java developer</span>!</p>
 
-  <p class="lead">You can find my CV 
-<a href="https://github.com/RuslanKovshar/RuslanKovshar.github.io/blob/master/ruslan_kovshar_cv.docx?raw=true" class="badge badge-info">here</a>.</p>
-<hr class="my-4">
+    <p class="lead">You can find my CV
+        <a href="https://github.com/RuslanKovshar/RuslanKovshar.github.io/blob/master/ruslan_kovshar_cv.docx?raw=true"
+           class="badge badge-info">here</a>.</p>
+    <hr class="my-4">
+    <br>
+    <h2>My pet-projects</h2>
+    <div class="card-group">
+        <div class="card">
+            <div class="card-body">
+                <h3 class="card-title">Spring Cash Machine</h3>
+                <div class="card-text">
+                    <div class="lead">
+                        <span class="badge badge-light">Cashier:</span> can open a check, add selected
+                        goods by code from the database (parsley =
+                        234, bread = 222) or by product name, indicate the number of goods or weight. Close the check.
+                    </div>
+                    <div class="lead">
+                        <span class="badge badge-light">Senior cashier:</span> can cancel the check, cancel one item on
+                        the check and return the money to the
+                        buyer. Make X and Z reports.
+                    </div>
+                    <div class="lead">
+                        <span class="badge badge-light">Merchandiser:</span> can create goods and indicate their number
+                        in stock.
+                    </div>
+                    <div class="lead">
+                        <span class="badge badge-light">Admin:</span>
+                        define user roles
+                    </div>
+                </div>
+                <br>
+                <div class="card-text">
+                    <a class="btn btn-outline-primary" role="button"
+                       href="https://github.com/RuslanKovshar/SpringCashMachine">
+                        View Code
+                    </a>
+                    <a class="btn btn-outline-success" role="button"
+                       href="https://spring-cash-machine.herokuapp.com/login">
+                        View Project
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <h3 class="card-title">Servlet Cash Machine</h3>
+                <p class="card-text">Project with same functionality as Spring Cash Machine but on J2EE stack</p>
+                <div class="card-text">
+                    <div class="lead">
+                        <span class="badge badge-light">Cashier:</span> can open a check, add selected
+                        goods by code from the database (parsley =
+                        234, bread = 222) or by product name, indicate the number of goods or weight. Close the check.
+                    </div>
+                    <div class="lead">
+                        <span class="badge badge-light">Senior cashier:</span> can cancel the check, cancel one item on
+                        the check and return the money to the
+                        buyer. Make X and Z reports.
+                    </div>
+                    <div class="lead">
+                        <span class="badge badge-light">Merchandiser:</span> can create goods and indicate their number
+                        in stock.
+                    </div>
+                    <div class="lead">
+                        <span class="badge badge-light">Admin:</span>
+                        define user roles
+                    </div>
+                </div>
+                <br>
+                <div class="card-text">
+                    <a class="btn btn-outline-primary" role="button"
+                       href="https://github.com/RuslanKovshar/ServletCashMachine">
+                        View Code
+                    </a>
+                    <a class="btn btn-outline-success" role="button"
+                       href="https://servlet-cash-machine.herokuapp.com/api/login">
+                        View Project
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <h3 class="card-title">Shipping System</h3>
+                <p class="card-text lead">The provision of services for the receipt and delivery of goods.
 
-<div class="text-left mt-5">
-	<div class="row">
-		<div class="col">
-			
-		</div>
-		<div class="col">
-			<table class="table table-borderless table-hover table-sm" style="width: 40%"> 
-				<caption>Contact me</caption>
-  				<tbody>
-   					 <tr>
-      					<th><p class="font-weight-light">E-mail:</p></th>
-      					<td><p class="font-weight-bold">ruslan.kovshar@gmail.com</p></td>
-    				</tr>
-    				<tr>
-      					<th><p class="font-weight-light">LinkedIn:</p></th>
-      					<td><p class="font-weight-bold">ruslankovshar</p></td>
-    				</tr>
-  				</tbody>
-			</table>
-		</div>
-	</div>
-</div>
+                    The site contains information on tariffs and delivery directions.
+
+                    An <span class="badge badge-light">unregistered user</span> can view the site and the service
+                    calculator.
+
+                    A <span class="badge badge-light">registered user</span> in his Account can create an Application
+                    for baggage claim and a delivery address.
+                    The application contains information about the type of baggage, weight and date of receipt.
+
+                    <span class="badge badge-light">Admin</span> can watch all registered users and their order history.
+
+                    After receiving the application, the <span class="badge badge-light">system</span> generates an
+                    invoice.
+
+                    The <span class="badge badge-light">user</span> can pay it in his account.
+                </p>
+                <div class="card-text">
+                    <a class="btn btn-outline-primary" role="button"
+                       href="https://github.com/RuslanKovshar/SpringDeliveryService">
+                        View Code
+                    </a>
+                    <a class="btn btn-outline-success" role="button"
+                       href="https://shipping-system.herokuapp.com/login">
+                        View Project
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="text-left mt-5">
+        <div class="row">
+            <div class="col">
+
+            </div>
+            <div class="col">
+                <p class="lead">Contact me:</p>
+                <table class="table table-borderless table-hover table-sm" style="width: 40%">
+                    <tbody>
+                    <tr>
+                        <th><p class="font-weight-light">E-mail:</p></th>
+                        <td><p class="font-weight-bold">ruslan.kovshar@gmail.com</p></td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <p class="font-weight-light">LinkedIn:</p>
+                        </th>
+                        <td><p class="font-weight-bold"><a href="https://www.linkedin.com/in/ruslankovshar">ruslankovshar</a>
+                        </p></td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <p class="font-weight-light">Telegram:</p>
+                        </th>
+                        <td><p class="font-weight-bold"><a href="https://t.me/fabulosS">Ruslan</a></p></td>
+                    </tr>
+                    <tr>
+                        <th><p class="font-weight-light">Phone:</p></th>
+                        <td><p class="font-weight-bold">+380960664615</p></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
 </div>
 </body>
 </html>
